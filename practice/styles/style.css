@@ -1,0 +1,39 @@
+h2 {
+		color: gray;
+  font-size: 60px;
+  text-align: center;
+   text-shadow: 3px 3px 1px black;
+}
+
+
+body{
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightpink;
+	
+}
+form {
+  margin:0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #080101;
+  border-radius: 1em;
+  color:black;
+  text-align:center;
+}
+form div + div {
+  margin-top: 1em;
+}
+label {
+display: inline-block;
+  width:90px;
+  text-align: left;
+}
+textarea {
+  vertical-align: top;
+  height: 5em;
+  color:blue;
+}
