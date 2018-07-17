@@ -1,0 +1,110 @@
+form
+{
+	
+  margin: 0 auto;
+  width: 700px;
+  height:850px;
+  background-color:green;
+  padding: 2em;
+  border: 3px solid white;
+  border-radius: 2em;
+
+}
+
+#red
+{
+	color:black;
+	
+}
+h1
+{
+	color:red;
+	font-size:50px;
+	text-shadow:3px 2px 1px black;
+}
+h2,h3
+{
+	color:red;
+	font-size:30px;
+	text-shadow:3px 2px 1px black;
+}
+fieldset
+{
+  background-color:green;
+  width: 200px;
+  height:80px;
+  padding: 1em;
+  border: 2px solid white;
+  border-radius: 1em;
+  margin-left: 160px;
+}
+
+form div + div 
+{
+  margin-top: 1em;
+}
+
+#light 
+{
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+#id1
+{
+	background-color:#808080;
+}
+#div
+{
+  margin: 0 auto;
+  width: 350px;
+  height:150px;
+  background-color:green;
+  padding: 1em;
+  border: 3px solid white;
+  border-radius: 1em; 
+}
+
+form fieldset + #div
+{
+	margin-top: 1em;
+}
+#id9
+{
+text-align:center;
+	
+}
+#date
+{
+	vertical-align:top;
+	background-color:#808080;
+}
+.button
+{
+padding-left:220px;	
+
+}
+button
+{
+	margin-left:3em;
+	width:80px;
+    height:30px;	
+	border-radius:1em;
+	background-color:green;	
+	margin-left: 3em;
+}
+#mon
+{
+	background-color:red;
+	height:30px;
+}
+body
+{
+	background-color:#DC7633;
+	
+}
+#m
+{
+	color:red;
+	text-align:right;
+}

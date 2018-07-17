@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<htmml>
+    <head>
+	<meta charset="utf-8" />
+	<link href="Styles/paymentform1.css" rel="stylesheet" type="text/css">
+    </head>
+	
+	<body>
+	 <form>
+	   <h1>Payment form </h1>
+	      <p id="red"> Required fields are followed by <abbr title="required">*</abbr></p>
+       <h2>Contact information </h2>
+  <fieldset>
+    <legend>Title</legend>
+    <p>
+      <input type="radio" name="Gender" id="id1" value="Mister">
+      <label for="id1">Mister</label>
+    </p>
+    <p>
+      <input type="radio" name="Gender" id="id2" value="Miss">
+      <label for="id2">Miss</label>
+    </p>
+  </fieldset>
+  <div id="div">
+       <p>
+	     <label for="name" id="light">Name <abbr title="required">*</abbr></label>
+	      <input type="text" id="id1" name="user_name" placeholder="Enter your Name">
+	  </p>
+	   <p>
+	      <label for="name" id="light">E-mail <abbr title="required">*</abbr></label>
+	        <input type="mail" id="id1" name="user_mail" pattern="[^ @]*@[^ @]*" placeholder="Enter your email">
+	      </p>
+	  <p>
+	      <label for="name" id="light">Password <abbr title="required">*</abbr></label>
+	      <input type="Password" id="id1" name="password" placeholder="Enter your Password">
+	  </p>
+	</div>
+  <section>	
+	    <h3> Payment information</h3>
+		<p id="id9"> 
+		    <label for="card" id="id9"><span> Card type: </span></label>
+			  <select id="card" name="usercard">
+			    <option value="visa">Visa</option>
+				<option value="Mastercard">Mastercard</option>
+				<option value="American Express">American Express</option>
+			 </select>
+	   </p>	
+	   <p id="id9">
+	       <label for="number">Card number<abbr title="required">*</abbr></label>
+	      <input type="text" id="number" name="cardnumber" placeholder="Enter your card number">  
+	</p>
+	<p id="id9">
+      <label for="date">
+        <span>Expiration date:</span>
+        <strong><abbr title="required">*</abbr></strong>
+		<input type="text" id="date" name="expiration" >
+      </label>
+         <p id="id9"><em>formatted as mm/yy</em></p>
+    </p>
+  </section>
+  <div class="button">
+	      <button id="mon" type="reset">Reset</button>
+          <button type="submit">Submit</button>
+       </div>
+ 
+</form>
+		
+	</body>
+	
+</html>
